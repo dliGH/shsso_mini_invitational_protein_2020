@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Protein Modeling</title>
+<meta name="author" content="Derek Li modified code of original author Em Zhan">
+<meta name="description" content=
+"A test test">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+  <div class="sidenav">
+    <a href="#top">Top</a>
+    <a href="#gen">General Biochemistry</a>
+    <a href="#crispr">CRISPR</a>
+    <a href="#cda">Cytidine Deaminase</a>
+    <a href="#dnarna">DNA/RNA</a>
+    <a href="#aa">Amino Acids</a>
+    <a href="#diagram">Labeling</a>
+    <a href="#jmol">Jmol Exploration</a>
+    <a href="#bottom">Bottom</a>
+  </div>
+
+<main id="test">
+<form method="get" id = "testform">
+
+<h2><a id="top">SHSSO Protein Modeling Mini-Invitational 2020</a></h2>
+<h4>Written by: Derek Li</h4>
+<p>Directions: This test consists of a only fill-in answer responses. Please answer directly in the answer boxes. Remember that brevity is key. 
+  If a question is worth more than one point, the point value will be stated in parentheses. Tiebreakers will be indicated with a TB. On the chance that there is a tie that goes beyond these indicated questions, the longest consecutive streak from the first question onward will determine the winner. 
+  The first tiebreaker is to type a smiley face next to your name at the bottom when deciding to submit, just to see if you read this far.
+</p>
+<p>
+  If you take the test without a cheatsheet, you will recieve a 30% bonus. If you choose to proceed with this route, let the test proctor know, give them your cheatsheet (if you have one) and have them initial below in the textbox.
+</p>
+<p>
+  If you have any questions, please feel free to contact me at derekli@uchicago.edu
+</p>
+<p>
+  Have fun!
+</p>
+
+<b>
+  Note: There's a sticky menu on the left! Use to navigate around faster.  
+</b>
+
+<p></p>
+
+<label>Cheat Sheet Bonus? <input type="text" name="nocheatsheet"></label>
+<hr>
+
+<!-- General Biochem -->
+
+<h2><a id="gen">I. General Biochemistry of Macromolecules</a></h2>
+<ol>
+  <li>
+    <p>In less than one sentence each, briefly describe the four levels of protein structure. </p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is the most basic level of protein structure? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the most complex level of protein structure? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the monomer of a protein. </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Name the 3 main structural classifications of proteins. Give an example of each </p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is a gene? What are the basic elements of any protein-coding gene's structure? </p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>
+      Proteins are usually folded at low temperature (T < T_m, the so-called “melting
+      temperature”) and unfolded at high temperature (T > T_m). During folding, hydrophobic amino
+      acid side chains are removed from solvent and buried inside the protein. The questions below
+      refer to the folding reaction written as follows:
+    </p>
+    <p>
+      Unfolded Protein ⇌ Folded Protein
+    </p>
+    <p>What is the sign of ΔG for this reaction at T < T_m? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>What is the sign of ΔG for this reaction at T > T_m? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Would enzymes have an impact on ΔG for this reaction? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Why or why not? </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p></p>
+    <b>The next three questions refer to the following:</b>
+    <p>(A) Reduction</p>
+    <p>(B) Hydrolysis</p>
+    <p>(C)) Group transfer</p>
+    <p>(D) Isomerization</p>
+    <p>(E) Oxidation</p>
+    <p</p>
+    <b> Questions: </b>
+    <p>Cleavage of a peptide bond </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>Phosphorylation of a serine residue on a protein </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>Formation of disulfide bonds between cysteines </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p></p>
+    <b>The next four questions refer to the following:</b>
+    <p>(A) Zinc finger</p>
+    <p>(B) Acidic domain</p>
+    <p>(C)) Triple helix</p>
+    <p>(D) Long terminal repeat (LTR)</p>
+    <p>(E) Stem-loop</p>
+    <p</p>
+    <b> Questions: </b>
+    <p>A common structural motif found in the DNA binding domains of transciptional activators </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>A retroviral sequence element </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>A structural motif in transcriptional activator proteins that interact with proteins in the general transcription apparatus </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>The structure of a transcriptional attentuator </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Define denaturation of proteins and list five different ways to denature a protein.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>Offer one example of denaturization from the question above, how would one renature a protein following that form of denaturation?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>How does denaturation impact each different level of protein structure?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What amino acids among the following would you expect to find a) inside, and b) at the surface of a typical globular protein in an aqueous solution of pH 7?</p>
+    <p>Glu, Arg, Val, Phe, Ileu, Asn, Lys, Ser, Thr</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  
+  
+</ol>
+
+<!-- CRISPR -->
+
+<hr>
+<h2><a id="crispr">II. CRISPR-Cas Systems</a></h2>
+<ol start="">
+  
+  <li>
+    <p>What does CRISPR stand for?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What does Cas stand for?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>CRISPR-Cas9:bacteria :: __________ : human</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>CRISPR-Cas9:bacteria :: __________ : eukaryotes</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>
+      Describe, in three clearly defined stages, how a bacterial cell uses the
+      CRISPR-Cas9 system for immunity against an invading bacteriophage.
+    </p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+
+  <li>
+    <p>How many classes of Cas systems exist?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  
+  <li>
+    <p>How many types of Cas systems exist?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What is the class and type of Cas9?</p>
+    <label>Class: <input type="text" name="ans"></label>
+    <label>Type: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What is the class and type of Cas12a?</p>
+    <label>Class: <input type="text" name="ans"></label>
+    <label>Type: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What is another name for Cas12a?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>List two differences between Cas9 and Cas12a?</p>
+    <label>1: <input type="text" name="ans"></label>
+    <label>2: <input type="text" name="ans"></label>
+  </li>
+
+<li>
+<p>Here is some arbitrary DNA strand.</p>
+<p>3' ... gaacccttctcgctaagtcccgcc ... 5'</p>
+<p>5' ... cttgggaactgcgattcagggcgg ... 3'</p>
+<p>How many PAM sites are present in this stretch of DNA for SpCas9?</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+<p>What is the most common form of PAM for SpCas9?</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+<p>What does PAM stand for?</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+  <p>If there was no PAM sequence in bacteria, what would be a consequence?</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+  <p>What are the domains of CRISPR and their functions? Try to keep each explanation to one or two sentences.</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+
+
+<p></p>
+<b>Back in 2012, a new class of prokaryotic RNA binding proteins called Repeat Associated Mysterious Proteins (RAMPs), was identified.</b>
+  <li>
+  <p>How many steps in the CRISPR immunity pathway are these RAMPs involved in?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+  </li>
+<li>
+<p>Name one functional role these RAMPs have in the CRISPR immunity pathway.</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+<p>RAMPs can be classified into 3 families, which Cas family is the largest?</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<p></p>
+
+<b>Though this event focuses on CRISPR-Cas9 gene editing, two other forms of gene editing technology are also widely used.</b>
+
+<li>
+    <p>Name these two alternative gene editing technologies.</p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+  <p>Provide 2 advantages CRISPR has to these 2 alternative methods.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+  <p>Provide 2 disadvantages CRISPR has to these 2 alternative methods.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<p></p>
+<b>These last questions will be formatted as an extended research thought experiment in which
+  you will think about potential applications of CRISPR technology.</b>
+<p>Let's say you work in a lab that studies electrochemical biosensors. The idea behind biosensing technology is to 
+  recognize different biomarkers and based on a threshold concentration to identify specific illnesses. For example, different cancers result in different types of biomarkers to emerge in the bloodstream, where biomarkers can be genes, proteins, DNA and other molecular units.
+  Current technologies like Western Blot, and ELISA are quite slow and may not be as sensitive compared to other biosensors.
+  Thus, you and your lab group is trying to incorporate the use of CRIPSR technology to improve biosensing technologies in preventive care. 
+</p>
+<p>
+  The primary way biomarker concentration is measured is by the distance of an electrochemical tab from the electrodes on the surface. Generally, the greater concentration of biomarker, the further the tab, the lower the current that travels through the biosensor.
+  <i>The tab in your experiment will be an ssDNA strand that acts as a hairpin probe.</i> It should be known that from an idealized chemistry perspective, 
+  the ultimate signal gain would be the elimination of the electrochemical signal in the presence of the target, indicating that the removal of the electrochemical tag upon the target recognition is desirable.
+</p>
+<p>
+  The specific way you seek to utilize CRISPR is twofold: first is to improve specificity in identifying the biomarker. 
+  Second, is to improve sensitivity of the biosensor. 
+</p>
+<li>
+  <p>What characteristic of CRISPR best enables the identification of biomarkers? Why? Think about the premise of CRISPR's own methods of identification. </p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+<li>
+  <p>What characteristic of CRISPR would enable better sensitivity (i.e. the sensor is still effective at low levels of biomarker concentration)? 
+    Think specifically by "removal of the electrochemical tag". <b>HINT:</b> Answer with regards to some tertiarty structure of CRISPR.</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+<li>
+  <p>Given the following experimental results, does it appear that Cas9 or Cas12a is better for your biosensor? Why? </p>
+  <img src="./assets/thtexpdia.png" alt="rplot" width="300">
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+</ol>
+
+<!-- Cytidine Daminase -->
+
+<hr>
+<h2><a id = "cda">III. Cytidine Deaminase and Co</a></h2>
+<ol start="">
+  <li>
+  <p> What is the name of the protein that is supposed to be submitted for the pre-build portion of this event?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What type of enzyme is it?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>From what family of proteins is the pre-build protein from?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>True or False: Cytidine deaminase is part of this family.</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  
+  <li>
+    <p>Cytidine deaminase is an enzyme that in humans is encoded by what gene?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>What is a difference between activation-induced cytidine deaminase and just cytidine deaminase?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+
+  <li>
+    <p>During deamination, the ______1_______ of cytidine deaminase bonds to the ______2_______ of Cas9</p>
+    <label>Answer 1: <input type="text" name="ans"></label>
+    <label>Answer 2: <input type="text" name="ans"></label>
+  </li>
+
+  <li>
+    <p>During deamination, the ______1_______ group on cytosine is changed to a ______2_______ group</p>
+    <label>Answer 1: <input type="text" name="ans"></label>
+    <label>Answer 2: <input type="text" name="ans"></label>
+  </li>
+
+<li>
+<p> What has cytidine deaminase been demonstrated to do to DNA in the presence of dCas9?</p>
+<label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<li>
+  <p>List all of the components involved in cytidine base-editing.</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+
+</ol>
+
+<!-- DNA and RNA -->
+
+<hr>
+<h2><a id= "dnarna">IV. DNA and RNA</h2></a>
+<ol start="">
+  <li>
+    <p>What does DNA stand for?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What does RNA stand for?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+  <p> What are the three types of RNA and their functions </p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What bases are present in DNA? Please provide the full names.</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>How are the DNA bases classified?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the difference between DNA and RNA with regards to bases?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <p></p>
+    <b>Here is an arbitrary DNA strand.</b>
+    <p>3' ... caccccgtacaatccaaatgcgca ... 5'</p>
+    <p>5' ... gtggggcatgttaggtttacgcgt ... 3'</p>
+  <li>
+    <p>What type of strand is the first strand considered?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What type of the strand is the second strand considered?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>If one were to get an RNA strand from this DNA, what would the resulting RNA strand be?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is this process of turning DNA into RNA called?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What regulates this process of turning DNA into RNA?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>From the resulting RNA sequence what would be the encoded peptide sequence?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is this process of turning RNA into a peptide sequence called?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What regulates this process of turning RNA into a peptide sequence?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is this process of DNA -> RNA -> Protein called in molecular biology?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What does a nuclease do?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>A sequence of fifty base pairs of nucleotides contains 33 cytosine bases. How
+      many adenine bases are there in the sequence?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>If a bacterium composed of nitrogen 14 was grown in culture that contained
+      nitrogen 16, would newly synthesised DNA weigh more, less or the same as
+      original bacterium DNA?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Why is the above case true? (Please keep your answer to 1-2 sentences)</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>Explain the idea of "RNA world" in one to two sentences. Then provide one reason to why this is not the case today.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+</ol>
+
+<!-- Amino Acids -->
+
+<hr>
+<h2><a id = "aa">V. Amino Acids</h2></a>
+<ol start="">
+  <li>
+    <p>Define chirality.</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What are different chiral forms called?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the only amino acid lacking a chiral carbon?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the only amino acid that is essential because animals cannot synthesize it?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What is the only amino acid where the side chain is connected to the protein backbone twice?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>Which amino acid is an alpha helix terminator?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>The most common amino acid in beta bend is?</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>List 1 amino acid outside of the standard 20. </p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>
+    <p>What are nonessential amino acids? Provide an example. </p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>Why can an amino acid act as both an acid and a base?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is the isoelectric point of an amino acid?</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>What is the isoelectronic point, pI, of each of the following hypothetical amino acids for which you are given their pKa values?</p>
+    <p>(pKa1 = carboxyl,  pKa2 = ammonium, pKa3 = side chain functional group)</p>
+    <p> (a) pKa1 = 4.0,  pKa2 = 8.0 </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>(b) pKa1 = 3.0,  pKa2 = 9.0,  pKa3 = 4.0 </p>
+    <label>Answer: <input type="text" name="ans"></label>
+    <p>(c) pKa1 = 3.0,  pKa2 = 9.0,  pKa3 = 8.0</p>
+    <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  
+  <p></p>
+
+  <li>
+    <b>
+      Now for each of the following, please give me: its name, its one-letter abbreviation, all relevant pK values, and the net charge you predict it to have at pH 8.5.
+      Note that there is not necessarily only one correct answer to each of these -- pick one you like!
+    </b>
+    <p>An amino acid which contains an epsilon-amino group.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+    <p>An amino acid which contains an aromatic side-chain.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+    <p>An amino acid which contains an alcohol group.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+    <p>An amino acid which contains an acidic side-chain.</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+    <p>An amino acid which has a pKA for one of its ionizable groups that is near human physiological pH</p>
+    <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+  </li>
+  <li>
+    <p>A thought experiment: if instead of 20 different amino acids, proteins were composed of
+      12 different amino acids, what is the smallest possible codon size in a genetic system with
+      four different nucleotides?</p>
+      <label>Answer: <input type="text" name="ans"></label>
+  </li>
+  <li>  
+    <p>
+    Many biomolecules are derived from amino acid precursors. Name the correct precursor for the
+following biomolecules.
+<p></p>
+<label>Serotonin: <input type="text" name="ans"></label>
+<p></p>
+<label>Histamine: <input type="text" name="ans"></label>
+<p></p>
+<label>Epinephrine: <input type="text" name="ans"></label>
+<p></p>
+<label>Heme: <input type="text" name="ans"></label>
+  </p>
+</li>
+
+</ol>
+
+<!-- Labeling -->
+
+<hr>
+<h2><a id="diagram"> VI. Labeling </h2> </a>
+<ol start="">
+
+<b>Diagram 1</b>
+<img src="./assets/aa-label.png" alt="rplot" width="300">
+<li>
+  <p>What does this diagram represent?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label a.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label b.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label c.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label d.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<p></p>
+
+<b>Diagram 2</b>
+<img src="./assets/ramachandran-plot-label.png" alt="rplot" width="300">
+<li>
+  <p>What is this diagram called?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>What is significance of this diagram?</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+<li>
+  <p>Label a.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label b.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label c.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label d.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label e.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li> 
+<li>
+  <p>Label f.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>How many bonded atoms are required to constitute a dihedral (torsion) angle, such as phi or psi?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>What are the [answer from 23] atoms that make up the phi angle? </p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>What are the [answer from 23] atoms that make up the psi angle? </p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>The number of phi and psi angles in an isolated amino acid (not in a polypeptide chain) is?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+<p></p>
+
+<b>Diagram 3</b>
+<img src="./assets/hierarchy of protein structure label.png" alt="rplot" width="300">
+<li>
+  <p>Label a.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label b.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label c.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label d.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label e.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li> 
+<li>
+  <p>Label f.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>Label g.</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+<li>
+  <p>What is the most common supersecondary structure?</p>
+  <label>Answer: <input type="text" name="ans"></label>
+</li>
+
+</ol>
+
+<!-- JMOL-->
+
+<hr>
+<h2><a id ="jmol">VII. Jmol Computer Exploration</h2></a>
+<p>
+  Directions: Complete the questions using the built-in JSmol applet.
+</p>
+<p>
+  To access console: Right Click -> Console (not JavaScript Console).
+</p>
+<p>
+  To reload: Right Click -> File -> Load -> Reload.
+</p>
+<b>You may want to open a duplicate tab of to see both the test and the JSmol applet at the same time</b>
+<ol start="">
+
+<script type="text/javascript" src="https://chemapps.stolaf.edu/jmol/jmol.php?pdbid=1thb&inline"></script>
+
+<li>
+<p>What is the Brookhaven code of this PDB file?</p>
+</li>
+<label>Answer: <input type="text" name="ans"></label></li>
+
+<li>
+<p>How many chains are in this PDB file?</p>
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+<p>Provide the non-redundant chains that make up this PDB file.</p>
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>How many groups are in this PDB file?</p>
+  <label>Answer: <input type="text" name="ans"></label></li>
+  </li>
+
+<li>
+<p>What is the best resolution for this PDB file?</p>
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>How many polymers are in this PDB file?</p>
+  <label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<p></p>
+<b>For each of the following questions please answer for each chain.</b>
+
+<li>
+<p>How many atoms are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>How many bonds are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+  <p>How many hydrogen bonds are there?</p>
+  <label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>How many helicies are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>How many strands are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>How many turns are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+  
+<li>
+<p>How many struts can be added?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>How many water atoms are there?</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+  
+<li>
+<p>Choose one of the chains. Please provide the order of secondary structures for that chain (label and include the N and C terminal amino acids).</p>
+<label>Answer: <textarea rows="2" cols="25" name = "ans" form = "testform"></textarea></label>
+</li>
+
+<li>
+<p>What single command would result in the following type of image?</p>
+<img src="./assets/wf.png" alt="wf" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/sf.png" alt="sf" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/dots.png" alt="dots" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+<p>What single command would result in the following type of image?</p>
+<img src="./assets/bb.png" alt="bb" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/trce.png" alt="trce" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/rbn.png" alt="rbn" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/crtn.png" alt="crtn" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+
+<li>
+  <p>What single command would result in the following type of image?</p>
+<img src="./assets/strnds.png" alt="crtn" width="300">
+<label>Answer: <input type="text" name="ans"></label></li>
+</li>
+<p>
+
+</p> 
+
+</ol>
+
+<hr>
+<h2><a id="bottom">Competitor Info</a></h2>
+<ol type="i">
+<li>
+<p>What is your name?</p>
+<label><input type="text" name="names"> (your name or
+names)</label></li>
+<li>
+<p>What is your team number?</p>
+<label><input type="text" name="team"> (your team
+number)</label></li>
+<li>
+<p>Are you sure you want to submit this test?</p>
+<input type="submit" value="Yes"></li>
+</ol>
+</form>
+
+<!--ending page-->
+
+</main>
+<section id="thanks">
+<h1>Thanks for taking this test!</h1>
+<hr>
+<p>If you have reached this page by accident, return to the test by
+clicking the back button in your browser.</p>
+<p>To finish submitting, copy the following URL and send it to your
+test proctor:</p>
+<textarea id="textarea" readonly></textarea>
+<p>Please consider giving test feedback here:</p>
+</section>
+
+<script>
+const url = document.URL;
+const test = document.getElementById("test");
+const thanks = document.getElementById("thanks");
+const textarea = document.getElementById("textarea");
+
+if (url.includes("?")) {
+  test.style.display = "none";
+  thanks.style.display = "block";
+  textarea.value = url;
+}
+</script>
+</body>
+</html>
+
+<!--
+
+<p>Short answer test</p>
+<label>Answer: <input type="text" name="ans"></label></li>
+<li>
+
+<p> Multiple choice test</p>
+<input type="radio" name="ans" value="Red">Red<br>
+<input type="radio" name="ans" value="Blue" checked>Blue<br>
+<input type="radio" name="ans" value="Yellow">Yellow
+
+
+<p>Multiple guess test </p>
+<input type="checkbox" name="ans" value="Dog"> Dog<br>
+<input type="checkbox" name="ans" value="Cat"> Cat<br>
+<input type="checkbox" name="ans" value="Bird"> Bird<br>
+<input type="checkbox" name="ans" value="Mouse"> Mouse<br>
+<input type="checkbox" name="ans" value="Hamster"> Hamster<br>
+<input type="checkbox" name="ans" value="Alligator"> Alligator<br>
+<input type="checkbox" name="ans" value="Other"> Other
+<li>
+
+
+<p>Picture test</p>
+<img src="./assets/test.png" alt="a headphone jack" width="300">
+<label>Answer: <input type="text" name="ans"> test</label></li>
+<li>
+
+<p>Gif test</p>
+<img src="./assets/test.gif" alt="test gif" width="500">
+<label>Answer: <input type="text" name="ans"> test</label></li>
+</ol>
+
+
+<p>bigger text box test</p>
+<textarea rows="2" cols="25" name = "ans" form = "testform"></textarea>
+
+<p>bigger text box test PT 2</p>
+<textarea rows="2" cols="25" name = "ans" form = "testform"></textarea>
+-->
